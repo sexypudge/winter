@@ -72,6 +72,7 @@ public class UserDaoImpl implements UserDao {
 
         //persist User along with Department
         Serializable s = session.save(user);
+
         return (Integer.parseInt(s.toString()) > 0);
     }
 

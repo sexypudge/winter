@@ -22,7 +22,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h4 class="page-head-line">${checkUserIdExist?"Update":"Add"} New User </h4>
+                            <h4 class="page-head-line">${checkUserIdExist?"Update":"Add"} User </h4>
                         </div>
                     </div>
                     <div class="row">
