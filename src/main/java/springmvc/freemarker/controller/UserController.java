@@ -20,8 +20,6 @@ import org.springframework.ui.Model;
 
 import javax.validation.Valid;
 import java.util.List;
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
 
 @Controller
 @RequestMapping("/user")
@@ -45,8 +43,6 @@ public class UserController {
         model.addAttribute("users", userService.getListUsers());
         return "user/userList";
     }
-
-    EntityManager entityManager;
 
     @RequestMapping(value = "/addNew", method = RequestMethod.GET)
     public String addNew(Model model){

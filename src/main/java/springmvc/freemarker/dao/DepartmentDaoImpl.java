@@ -35,7 +35,7 @@ public class DepartmentDaoImpl implements DepartmentDao{
         Session session = sessionFactory.getCurrentSession();
 
         Department department = new Department();
-        department. setDepartmentName(departmentForm.getDepartmentName());
+        department.setDepartmentName(departmentForm.getDepartmentName());
 
         Serializable s = session.save(department);
 

@@ -13,6 +13,7 @@
 
     <properties>
         <org.springframework-version>4.3.7.RELEASE</org.springframework-version>
+        <commons-dbcp.version>1.2.2</commons-dbcp.version>
     </properties>
 
     <dependencies>
@@ -115,6 +116,13 @@
             <version>4.0.4.RELEASE</version>
         </dependency>
         <!-- Spring Security Artifacts - END -->
+
+        <dependency>
+            <groupId>commons-dbcp</groupId>
+            <artifactId>commons-dbcp</artifactId>
+            <version>${commons-dbcp.version}</version>
+        </dependency>
+
     </dependencies>
 
 
