@@ -43,9 +43,7 @@
     </body>
 <!-- CORE JQUERY SCRIPTS -->
 <script
-        src="${rc.getContextPath()}/resources/js/jquery-3.2.1.js"
-        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-        crossorigin="anonymous"></script>
+        src="${rc.getContextPath()}/resources/js/jquery-3.2.1.js"></script>
 <!-- BOOTSTRAP SCRIPTS  -->
 <script src="${rc.getContextPath()}/resources/js/bootstrap.min.js"></script>
 <%--<script src="${rc.getContextPath()}/resources/js/bootstrap.js"></script>--%>
