@@ -15,9 +15,7 @@
     </jsp:attribute>
 
     <jsp:body>
-        <script src="${rc.getContextPath()}/resources/js/jquery-3.2.1.js"
-                integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-                crossorigin="anonymous"></script>
+        <script src="${rc.getContextPath()}/resources/js/jquery-3.2.1.js"></script>
         <script language="JavaScript">
             var departmentId ;
 
