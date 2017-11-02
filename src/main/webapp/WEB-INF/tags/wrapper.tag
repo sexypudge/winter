@@ -17,7 +17,7 @@
     <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <![endif]-->
-    <title>Manage Resources WINTER</title>
+    <title>WINTER CURSE</title>
     <!-- BOOTSTRAP CORE STYLE  -->
   <%--  <link href="${rc.getContextPath()}/resources/css/bootstrap.css" rel="stylesheet" />--%>
     <link href="${rc.getContextPath()}/resources/css/bootstrap.min.css" rel="stylesheet" />

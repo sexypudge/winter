@@ -7,12 +7,19 @@
 --%>
 <section class="menu-section">
     <div class="container">
+        <c:set var="req" value="${pageContext.request}" />
+        <c:set var="url">${req.requestURL}</c:set>
+        <c:set var="uri" value="${url.split('/')}" />
         <div class="row">
             <div class="col-md-12">
                 <div class="navbar-collapse collapse ">
                     <ul id="menu-top" class="nav navbar-nav navbar-right">
-                        <li><a href="${rc.getContextPath()}/">Dashboard</a></li>
-                        <li><a href="${rc.getContextPath()}/user/">USER MANAGEMENT</a></li>
+
+                        <li
+                                class="${uri[2] == '' ?'menu-top-active' : '' }"><a
+                                href="${rc.getContextPath()}/">Dashboard
+                        </a></li>
+                        <li class="${uri[2] == '' ?'menu-top-active' : '' }"><a href="${rc.getContextPath()}/user/">USER MANAGEMENT</a></li>
                         <li><a href="${rc.getContextPath()}/department/">DEPARTMENT MANAGEMENT</a></li>
                         <li><a href="${rc.getContextPath()}/title/">TITLE MANAGEMENT</a></li>
                         <li><a href="${rc.getContextPath()}/position/">POSITION MANAGEMENT</a></li>
