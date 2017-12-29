@@ -14,20 +14,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <!-- CORE JQUERY SCRIPTS -->
+    <script
+            src="${rc.getContextPath()}/resources/js/jquery-3.2.1.js"></script>
     <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <![endif]-->
     <title>WINTER CURSE</title>
     <!-- BOOTSTRAP CORE STYLE  -->
-  <%--  <link href="${rc.getContextPath()}/resources/css/bootstrap.css" rel="stylesheet" />--%>
     <link href="${rc.getContextPath()}/resources/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- FONT AWESOME ICONS  -->
     <link href="${rc.getContextPath()}/resources/css/font-awesome.css" rel="stylesheet" />
     <!-- CUSTOM STYLE  -->
     <link href="${rc.getContextPath()}/resources/css/style.css" rel="stylesheet" />
-    <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
 </head>
     <body>
@@ -41,10 +41,9 @@
             <jsp:invoke fragment="footer"/>
         </div>
     </body>
-<!-- CORE JQUERY SCRIPTS -->
-<script
-        src="${rc.getContextPath()}/resources/js/jquery-3.2.1.js"></script>
+<%--<script
+        src="https://code.jquery.com/jquery-3.2.1.js"></script>--%>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
 <!-- BOOTSTRAP SCRIPTS  -->
 <script src="${rc.getContextPath()}/resources/js/bootstrap.min.js"></script>
-<%--<script src="${rc.getContextPath()}/resources/js/bootstrap.js"></script>--%>
 </html>

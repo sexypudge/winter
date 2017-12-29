@@ -43,6 +43,14 @@
             }
 
         </script>
+        <style>
+            .tbody {
+                height: 50px!important;
+                overflow: auto!important;
+                overflow-x: auto;
+                overflow-y:auto ;
+            }
+        </style>
         <div class="content-wrapper">
 
             <form>
@@ -72,6 +80,9 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
+                                                <div class="tbody">
+
+
                                                     <c:if test="${not empty users}">
                                                         <c:forEach items="${users}" var="user">
                                                             <tr>
@@ -89,6 +100,7 @@
                                                             </tr>
                                                         </c:forEach>
                                                     </c:if>
+                                                </div>
                                                 </tbody>
                                             </table>
                                         </div>
